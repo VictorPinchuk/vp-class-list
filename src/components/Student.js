@@ -9,7 +9,6 @@ function Student({ student, index, deleteItemById, editItemById }) {
   
   return (
     <div className={s.student}>
-      {/* <div className={s.id}>{student.id}</div> */}
       <div className={s.index}>{index + 1}</div>
       <div className={s.class}>{student.class}</div>
       <div className={s.name}>

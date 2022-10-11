@@ -21,7 +21,7 @@ function App() {
 
   const [list, setList] = useState([]);
   const [isListLoaded, setIsListLoaded] = useState(false);
-  const [isListToShow, setIsListToShow] = useState(true);
+  const [isListToShow, setIsListToShow] = useState(false);
   const [edditedItem, setEdditedItem] = useState(emptyItem);
   const [saveDataAlert, setSaveDataAlert] = useState(false);
 
@@ -61,12 +61,6 @@ function App() {
       setList([...list, item]);
     } else {
       const tempItem = { ...item };
-      // console.log("item in App handleEditedItem line 564 (not-empty id)", item);
-      // console.log(
-      //   "tempItem in App handleEditedItem line 564 (not-empty id)",
-      //   tempItem
-      // );
-
       deleteItemByIdHandler(item.id);
       setList((prev) => [...prev, tempItem]);
     }
@@ -81,7 +75,6 @@ function App() {
   const editItemByIdHandler = (_id) => {
     const item = list.filter((obj) => obj.id === _id)[0];
     setEdditedItem(item);
-    // console.log("In App (edit item): _id =", _id);
   };
 
   const setEmptyEditedItem = () => {
@@ -93,14 +86,15 @@ function App() {
     setSaveDataAlert(false);
   };
   const notSaveHandler = () => {
-    window.location.reload();
+    // window.open("", "_parent", "");
+    alert('By!')
+    // window.close();
+    // window.location.reload();
+    // setSaveDataAlert(false);
+  };
+  const returnHandler = () => {
     setSaveDataAlert(false);
   };
-  const exitHandler = () => {
-    setSaveDataAlert(false);
-  };
-
-  // console.log('editedItem in App line 95',   edditedItem);
 
   return (
     <div className="App">
@@ -110,7 +104,7 @@ function App() {
             <SaveDataAlert
               saveHandler={saveHandler}
               notSaveHandler={notSaveHandler}
-              exitHandler={exitHandler}
+              returnHandler={returnHandler}
             />
           ) : (
             <div className="container">

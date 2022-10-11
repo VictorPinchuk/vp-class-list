@@ -32,7 +32,6 @@ function Form({ handleEditedItem, edditedItem, setEmptyEditedItem }) {
   const clearFormHandler = () => {
     setEmptyEditedItem();
   };
-  // console.log(edditedItem.id);
 
   const twoErr = errors.class && errors.lastName;
 
@@ -74,10 +73,7 @@ function Form({ handleEditedItem, edditedItem, setEmptyEditedItem }) {
             placeholder="Прізвище"
             {...register("lastName", {
               required: '"Прізвище"',
-              // minLength: {
-              //   value: 3,
-              //   message: "Мала довжина (не менше 3-х букв)",
-              // },
+             
             })}
           ></input>
           <input
