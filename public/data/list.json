@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "class": "6А",
+        "firstName": "Ілля",
+        "lastName": "Антоненко",
+        "nick": "Ілля"
+    },
+    {
+        "id": 3,
+        "class": "6А",
+        "firstName": "Даніель Саід",
+        "lastName": "Бернус",
+        "nick": ""
+    },
+    {
+        "id": 4,
+        "class": "6А",
+        "firstName": "Володимир",
+        "lastName": "Білий",
+        "nick": "Вова"
+    },
+    {
+        "id": 5,
+        "class": "6А",
+        "firstName": "Ольга",
+        "lastName": "Богданець",
+        "nick": "Оля"
+    },
+    {
+        "id": 6,
+        "class": "7А",
+        "firstName": "Максим",
+        "lastName": "Васильченко",
+        "nick": ""
+    },
+    {
+        "id": 7,
+        "class": "7А",
+        "firstName": "Анастасія",
+        "lastName": "Владимирова",
+        "nick": "Настя"
+    },
+    {
+        "id": 8,
+        "class": "7А",
+        "firstName": "Ілля",
+        "lastName": "Гонтаренко",
+        "nick": ""
+    },
+    {
+        "id": 2,
+        "class": "6А",
+        "firstName": "Світлана",
+        "lastName": "Апаткіна",
+        "nick": "Свєта"
+    },
+    {
+        "class": "6Б",
+        "lastName": "Абс",
+        "firstName": "Ваня",
+        "nick": "Ваня",
+        "id": "b0a52026-6913-4000-b455-6c4da08a8e83"
+    }
+]

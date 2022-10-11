@@ -1,0 +1,20 @@
+.button {
+  border: none;
+  background-color: rgba($color:#fff, $alpha: 0.0);
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+  &:hover {
+    background-color: rgb(237, 237, 237);
+  }
+  &:active {
+    transform: scale(1.1);
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    
+  }
+}

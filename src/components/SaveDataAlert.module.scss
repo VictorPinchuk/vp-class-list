@@ -1,0 +1,65 @@
+.alertBlock {
+  margin-top: 100px;
+  padding: 30px 50px;
+  margin: 100px 10px;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 30px;
+  & p {
+    margin: 20px 0px;
+    color: red;
+
+    @media screen and (max-width: 767px) {
+      margin: 10px 0px;
+    }
+    @media screen and (max-width: 480px) {
+      margin: 10px 0px;
+      font-size: 0.9rem;
+    }
+  }
+  & .warning {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 15px 30px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-top: 70px;
+  }
+}
+.buttonBlock {
+  padding: 20px 10px;
+  display: inline-flex;
+  gap: 20px;
+  justify-content: center;
+  color: black;
+  border-radius: 10px;
+  & button {
+    border: 1px solid black;
+    min-width: 100px;
+    padding: 5px 5px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    box-shadow: grey 2px 2px 2px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+    &:hover {
+      background-color: rgb(230, 230, 230);
+    }
+    &:active {
+      transform: translate(2px, 2px);
+    }
+    @media screen and (max-width: 480px) {
+      font-size: 0.9rem;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    padding: 10px 10px;
+    gap: 15px;
+  }
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,27 @@
+.footer {
+  margin: 10px auto;
+  max-width: 1000px;
+  @media screen and (max-width: 767px) {
+    margin: 8px auto;
+  }
+}
+
+.footerContent {
+  font-size: 0.8rem;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 0px 8px;
+  & p {
+    margin: 0px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 0.7rem;
+    gap: 10px;
+  }
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+}

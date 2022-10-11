@@ -1,0 +1,92 @@
+.formContent {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.1rem;
+  & input,
+  select {
+    font-size: inherit;
+    padding: 0px 5px;
+    min-height: 25px;
+    border: 1px grey solid;
+    border-radius: 5px;
+    @media screen and (max-width: 480px) {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+  }
+ 
+  
+}
+
+.class {
+  width: 75px;
+}
+.lastName {
+  width: 150px;
+}
+.firstName {
+  width: 150px;
+}
+.nick {
+  width: 120px;
+}
+ 
+@media screen and (max-width: 767px) {
+  .lastName {
+    width: 110px;
+  }
+  .firstName {
+    width: 110px;
+  }
+  .nick {
+    width: 70px;
+  }
+
+  
+}
+
+.studentBlock {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.buttonBlock {
+  display: flex;
+  padding: 0px 10px;
+
+  @media screen and (max-width: 767px) {
+    gap: 20px;
+  }
+}
+
+.submit {
+  font-size: 1.8rem;
+  font-weight: 800;
+  &:hover {
+    color: green;
+  }
+}
+.reset {
+  font-size: 1.5rem;
+  &:hover {
+    color: red;
+  }
+}
+.message {
+  margin: 10px auto;
+  padding: 0px 30px;
+ 
+}
+.inputErrors {
+  color: red;
+}

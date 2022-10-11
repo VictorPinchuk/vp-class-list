@@ -1,0 +1,64 @@
+.student {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 1.1rem;
+  border: 1px dotted grey;
+  margin: 0px 5px;
+
+  padding: 2px 5px;
+  border-radius: 5px;
+  text-align: left;
+  @media screen and (max-width: 767px) {
+    max-width: 700px;
+    font-size: 1rem;
+    padding: 2px 3px;
+  }
+  @media screen and (max-width: 480px) {
+    max-width: 300px;
+    font-size: 0.85rem;
+    padding: 0px 3px;
+    gap: 2px;
+  }
+}
+.index {
+  width: 25px;
+  text-align: center;
+}
+.class {
+  width: 25px;
+}
+.name {
+  width: 250px;
+  @media screen and (max-width: 767px) {
+    width: 130px;
+  }
+}
+.nick {
+  width: 50px;
+}
+@media screen and (max-width: 480px) {
+  .index {
+    width: 25px;
+    text-align: center;
+  }
+  .class {
+    width: 25px;
+  }
+  .name {
+    width: 150px;
+
+  }
+  .nick {
+    width: 40px;
+    font-size: 0.8rem;
+  }
+}
+
+.editBtn:hover {
+  color: green;
+}
+.deleteBtn:hover {
+  color: red;
+}
