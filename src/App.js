@@ -87,7 +87,7 @@ function App() {
   };
   const notSaveHandler = () => {
     // window.open("", "_parent", "");
-    alert('By!')
+    alert("By!");
     // window.close();
     // window.location.reload();
     // setSaveDataAlert(false);
@@ -111,9 +111,11 @@ function App() {
               <h1>Список учнів</h1>
               <menu className="menu">
                 <Select onClickHandler={showListHandler}>{firstBtnText}</Select>
-                <Select onClickHandler={() => saveFile(list, "list.json")}>
-                  Зберегти
-                </Select>
+                {isListToShow && (
+                  <Select onClickHandler={() => saveFile(list, "list.json")}>
+                    Зберегти
+                  </Select>
+                )}
                 <Select onClickHandler={onExit}>Закінчити</Select>
               </menu>
               {isListLoaded && isListToShow && (

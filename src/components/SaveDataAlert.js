@@ -12,18 +12,20 @@ function SaveDataAlert({ saveHandler, notSaveHandler, returnHandler }) {
 
   return (
     <div>
-      {true ? <p>true</p> : <p>false</p>}
+      {isByeShow ? (
+        <div className={s.byeBlock}>Дякуємо! <br/> Закрийте, будь ласка, <br/> вкладку або вікно браузера</div>
+      ) : (
+        <div className={s.alertBlock}>
+          <p className={s.warning}>!</p>
+          <p>Зберегти данні перед виходом ?</p>
 
-      <div className={s.alertBlock}>
-        <p className={s.warning}>!</p>
-        <p>Зберегти данні перед виходом ?</p>
-
-        <div className={s.buttonBlock}>
-          <button onClick={() => saveHandler()}>Так</button>
-          <button onClick={() => notSaveHandler()}>Ні</button>
-          <button onClick={() => returnHandler()}>Повернутися</button>
+          <div className={s.buttonBlock}>
+            <button onClick={() => saveHandler()}>Так</button>
+            <button onClick={() => byeBlock()}>Ні</button>
+            <button onClick={() => returnHandler()}>Повернутися</button>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

@@ -5,6 +5,8 @@
   border: 1px solid black;
   display: inline-block;
   border-radius: 30px;
+  box-shadow: grey 2px 2px 2px;
+
   & p {
     margin: 20px 0px;
     color: red;
@@ -61,5 +63,18 @@
   @media screen and (max-width: 480px) {
     flex-direction: column;
     gap: 20px;
+  }
+}
+
+.byeBlock {
+  margin: 100px 5px 0px 5px;
+  border: 1px solid rgb(152, 152, 152);
+  box-shadow: 2px 2px 2px lightgrey;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 40px 90px;
+  line-height: 1.5;
+  @media screen and (max-width: 480px) {
+  padding: 40px 30px;  
   }
 }
