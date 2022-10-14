@@ -8,7 +8,10 @@ import Form from "./components/Form";
 import Footer from "./components/Footer";
 import SaveDataAlert from "./components/SaveDataAlert";
 
+//Please red some comments below as well as in other modules
+
 function App() {
+  //Location of data file (list.json) is public/data folder in the rpoject
   const dataFilePath = "/data/list.json";
 
   const emptyItem = {
@@ -25,6 +28,8 @@ function App() {
   const [edditedItem, setEdditedItem] = useState(emptyItem);
   const [saveDataAlert, setSaveDataAlert] = useState(false);
 
+  //Maybe it is not a great idea to use fetch and promises in this case. 
+  //But just to show that I can use them :-)
   useEffect(() => {
     fetch(dataFilePath)
       .then((res) => res.json())
@@ -52,12 +57,12 @@ function App() {
   const deleteItemByIdHandler = (_id) => {
     setList(list.filter((obj) => obj.id !== _id));
   };
-
+  
+//We differ existimg item (edit option) from new one (add option)
+//on item.id. New item has empty string id.
   const handleEditedItem = (item) => {
     if (item.id === "") {
       item = { ...item, id: uuidv4() };
-      console.log("item in App handleEditedItem line 59 (empty id)", item);
-
       setList([...list, item]);
     } else {
       const tempItem = { ...item };
@@ -85,13 +90,7 @@ function App() {
     saveFile(list, "list.json");
     setSaveDataAlert(false);
   };
-  const notSaveHandler = () => {
-    // window.open("", "_parent", "");
-    alert("By!");
-    // window.close();
-    // window.location.reload();
-    // setSaveDataAlert(false);
-  };
+ 
   const returnHandler = () => {
     setSaveDataAlert(false);
   };
@@ -103,7 +102,6 @@ function App() {
           {saveDataAlert ? (
             <SaveDataAlert
               saveHandler={saveHandler}
-              notSaveHandler={notSaveHandler}
               returnHandler={returnHandler}
             />
           ) : (

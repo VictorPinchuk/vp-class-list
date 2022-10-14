@@ -1,3 +1,6 @@
+//Student list with search option and numbering.
+//Item id is not shown.
+
 import { useState } from "react";
 
 import s from "./List.module.scss";

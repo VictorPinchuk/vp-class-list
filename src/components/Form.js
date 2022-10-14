@@ -1,3 +1,4 @@
+//Form component is to add (new) or to edite (existing) item 
 import { useForm } from "react-hook-form";
 import { useEffect } from "react";
 
@@ -9,6 +10,8 @@ import Button from "../UI/Button";
 import s from "./Form.module.scss";
 
 function Form({ handleEditedItem, edditedItem, setEmptyEditedItem }) {
+
+  //useForm hook is used to simplify code and to hanle errors 
   const {
     register,
     setValue,
@@ -32,7 +35,8 @@ function Form({ handleEditedItem, edditedItem, setEmptyEditedItem }) {
   const clearFormHandler = () => {
     setEmptyEditedItem();
   };
-
+//twoErr is a variable to simplify a construction 
+//of an error message string
   const twoErr = errors.class && errors.lastName;
 
   return (
@@ -73,7 +77,6 @@ function Form({ handleEditedItem, edditedItem, setEmptyEditedItem }) {
             placeholder="Прізвище"
             {...register("lastName", {
               required: '"Прізвище"',
-             
             })}
           ></input>
           <input
@@ -98,8 +101,6 @@ function Form({ handleEditedItem, edditedItem, setEmptyEditedItem }) {
           </Button>
         </div>
       </form>
-
-
     </div>
   );
 }

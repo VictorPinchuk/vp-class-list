@@ -1,3 +1,4 @@
+//Button UI component
 import s from "./Button.module.scss";
 
 function Button({

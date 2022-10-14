@@ -1,3 +1,7 @@
+//Student (item). Nickname (nick) was requested by the Customer.
+//An item can be addited (in Form component) or deleted 
+//just frome here.
+
 import { RiEdit2Fill } from "react-icons/ri";
 import { RiDeleteBin2Fill } from "react-icons/ri";
 
@@ -20,7 +24,6 @@ function Student({ student, index, deleteItemById, editItemById }) {
         title="Редагувати"
         onClickHandler={editItemById}
         itemId={student.id}
-
       >
         <RiEdit2Fill className={s.editBtn} />
       </Button>

@@ -1,9 +1,10 @@
+//Save data alert window component
+
 import { useState } from "react";
 import s from "./SaveDataAlert.module.scss";
 import React from "react";
-import { tab } from "@testing-library/user-event/dist/tab";
 
-function SaveDataAlert({ saveHandler, notSaveHandler, returnHandler }) {
+function SaveDataAlert({ saveHandler, returnHandler }) {
   const [isByeShow, setIsByeShow] = useState(false);
 
   const byeBlock = () => {
@@ -13,7 +14,10 @@ function SaveDataAlert({ saveHandler, notSaveHandler, returnHandler }) {
   return (
     <div>
       {isByeShow ? (
-        <div className={s.byeBlock}>Дякуємо! <br/> Закрийте, будь ласка, <br/> вкладку або вікно браузера</div>
+        <div className={s.byeBlock}>
+          Дякуємо! <br /> Закрийте, будь ласка, <br /> вкладку або вікно
+          браузера
+        </div>
       ) : (
         <div className={s.alertBlock}>
           <p className={s.warning}>!</p>
