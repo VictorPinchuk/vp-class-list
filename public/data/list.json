@@ -1,1 +1,233 @@
-[{"id":1,"class":"6А","firstName":"Ілля","lastName":"Антоненко","nick":"Ілля"},{"id":3,"class":"6А","firstName":"Даніель Саід","lastName":"Бернус","nick":""},{"id":4,"class":"6А","firstName":"Володимир","lastName":"Білий","nick":"Вова"},{"id":5,"class":"6А","firstName":"Ольга","lastName":"Богданець","nick":"Оля"},{"id":6,"class":"7А","firstName":"Максим","lastName":"Васильченко","nick":""},{"id":7,"class":"7А","firstName":"Анастасія","lastName":"Владимирова","nick":"Настя"},{"id":8,"class":"7А","firstName":"Ілля","lastName":"Гонтаренко","nick":""},{"id":2,"class":"6А","firstName":"Світлана","lastName":"Апаткіна","nick":"Свєта"},{"class":"6Б","lastName":"Абс","firstName":"Ваня","nick":"Ваня","id":"b0a52026-6913-4000-b455-6c4da08a8e83"}]
+[
+    {
+        "class": "6А",
+        "lastName": "Антоненко",
+        "firstName": "Ілля",
+        "nick": "Ілля",
+        "id": "a7be273b-2f08-4f58-b4f7-2382790da181"
+    },
+    {
+        "class": "6А",
+        "lastName": "Аппаткіна",
+        "firstName": "Світлана",
+        "nick": "Свєта",
+        "id": "81ffa656-f87e-445b-bcfe-af614216c3a1"
+    },
+    {
+        "class": "6А",
+        "lastName": "Бернус",
+        "firstName": "Даніель Саїд",
+        "nick": "",
+        "id": "8f417605-e570-4ea1-a1d5-296d82b31ba9"
+    },
+    {
+        "class": "6А",
+        "lastName": "Білий",
+        "firstName": "Володимир",
+        "nick": "Вова",
+        "id": "ff99f08e-3084-4de2-b96b-3f7f02b805d1"
+    },
+    {
+        "class": "6А",
+        "lastName": "Богданец",
+        "firstName": "Ольга",
+        "nick": "Оля",
+        "id": "75950d01-e1b2-4f61-b021-29a600ed2cf3"
+    },
+    {
+        "class": "6А",
+        "lastName": "Васильченко",
+        "firstName": "Наталія",
+        "nick": "Наташа",
+        "id": "be18085e-e6bd-4823-b6e7-59072d7e087c"
+    },
+    {
+        "class": "6Б",
+        "lastName": "Гречко",
+        "firstName": "Петро",
+        "nick": "Петя",
+        "id": "ef59c2ee-2ed2-452f-89e3-b32e80132fd8"
+    },
+    {
+        "class": "6В",
+        "lastName": "Іванчик",
+        "firstName": "Олександр",
+        "nick": "Саша",
+        "id": "09cdea45-4b19-4b4d-aaf9-d2454e528a8c"
+    },
+    {
+        "class": "6В",
+        "lastName": "Марченко",
+        "firstName": "Петро",
+        "nick": "Петро",
+        "id": "6a57c6f5-8fa8-472f-b7ff-5d9f89acef8a"
+    },
+    {
+        "class": "6А",
+        "lastName": "Рибак",
+        "firstName": "Роман",
+        "nick": "Рома",
+        "id": "aa5743a6-4715-4cb4-bb29-c23c1f91eb93"
+    },
+    {
+        "class": "6Б",
+        "lastName": "Кудрявцева",
+        "firstName": "Лілія",
+        "nick": "Ліля",
+        "id": "f016321a-0bcb-496a-b31f-23f2e43ed9af"
+    },
+    {
+        "class": "6В",
+        "lastName": "Міщенко",
+        "firstName": "Владислав",
+        "nick": "Влад",
+        "id": "03c39ad9-cc8c-4a20-9b3c-e669678d7a20"
+    },
+    {
+        "class": "6Б",
+        "lastName": "Криворучко",
+        "firstName": "Анастасія",
+        "nick": "Настя",
+        "id": "9d2a1faf-62c8-4cec-80aa-5de69285108c"
+    },
+    {
+        "class": "6Б",
+        "lastName": "Лозовий",
+        "firstName": "Арсен",
+        "nick": "Арсен",
+        "id": "50134bbc-123f-4c4a-98e4-6149b24971ca"
+    },
+    {
+        "class": "6Б",
+        "lastName": "Марков",
+        "firstName": "Денис",
+        "nick": "",
+        "id": "134bcd8a-b996-452e-9d4a-54a985a07bdc"
+    },
+    {
+        "class": "6В",
+        "lastName": "Міщенко",
+        "firstName": "Валерія",
+        "nick": "Валерія",
+        "id": "4f7d867e-0332-41dc-9253-36bc7dde0a88"
+    },
+    {
+        "class": "6В",
+        "lastName": "Кушнірок",
+        "firstName": "Юрій",
+        "nick": "Юра",
+        "id": "fa8ca4b5-5371-4513-be89-78a5c0a5ada6"
+    },
+    {
+        "class": "6В",
+        "lastName": "Радченко",
+        "firstName": "Юрій",
+        "nick": "Юра",
+        "id": "863bf79e-4bb1-4804-a682-46c89ad0c5c4"
+    },
+    {
+        "class": "6В",
+        "lastName": "Кушнірук",
+        "firstName": "Олександр",
+        "nick": "Саша",
+        "id": "10e5a3d9-160b-423e-ac42-ddd4f0a71b1a"
+    },
+    {
+        "class": "6В",
+        "lastName": "Міщенко",
+        "firstName": "Денис",
+        "nick": "Денис",
+        "id": "f6f627c0-adce-4266-97b7-017712570b87"
+    },
+    {
+        "class": "6В",
+        "lastName": "Іванова",
+        "firstName": "Валерія",
+        "nick": "Валя",
+        "id": "1607b2f2-4105-4da4-80e5-6328a70c2cca"
+    },
+    {
+        "class": "7А",
+        "lastName": "Бойко",
+        "firstName": "Софія",
+        "nick": "Софа",
+        "id": "42519b32-6326-44df-ba76-007e6f5c875d"
+    },
+    {
+        "class": "7А",
+        "lastName": "Дубровська",
+        "firstName": "Софія",
+        "nick": "",
+        "id": "bebba977-ae80-409c-b4d3-ad3d93b4c4fa"
+    },
+    {
+        "class": "7А",
+        "lastName": "Кузьменко",
+        "firstName": "Артур",
+        "nick": "",
+        "id": "952327ab-b877-4f04-a224-8c18faf09aba"
+    },
+    {
+        "class": "7А",
+        "lastName": "Ткаченко",
+        "firstName": "Олеся",
+        "nick": "Леся",
+        "id": "83975cbf-cafe-44af-a315-fac2d39ee69c"
+    },
+    {
+        "class": "7Б",
+        "lastName": "Ткач",
+        "firstName": "Юрій",
+        "nick": "Юра",
+        "id": "810493c0-5852-4cc1-b3c8-32fcf504929b"
+    },
+    {
+        "class": "7Б",
+        "lastName": "Сініцин",
+        "firstName": "Тимур",
+        "nick": "Тимур",
+        "id": "c6254de1-3239-48ac-9e59-87d9c3844741"
+    },
+    {
+        "class": "7Б",
+        "lastName": "Яковлєв",
+        "firstName": "Ігор",
+        "nick": "Ігор",
+        "id": "1d07ebc4-f16e-4172-bef3-cd0f279d738f"
+    },
+    {
+        "class": "7В",
+        "lastName": "Вергун",
+        "firstName": "Микола",
+        "nick": "Коля",
+        "id": "8d6e6bc2-7fbb-481f-ae09-346bf958eb1d"
+    },
+    {
+        "class": "7В",
+        "lastName": "Кравченко",
+        "firstName": "Олег",
+        "nick": "Олег",
+        "id": "59f4602f-be31-4ee2-80c1-73ebb5b60222"
+    },
+    {
+        "class": "7В",
+        "lastName": "Мороз",
+        "firstName": "Тимур",
+        "nick": "",
+        "id": "ddee6701-0496-431c-9974-36b8cbe95e4f"
+    },
+    {
+        "class": "7Б",
+        "lastName": "Літвінцев",
+        "firstName": "Олег",
+        "nick": "",
+        "id": "0bcea81f-0f7c-4825-86c6-b3d01cb2e5b7"
+    },
+    {
+        "class": "7В",
+        "lastName": "Науменко",
+        "firstName": "Наталія",
+        "nick": "Наташа",
+        "id": "2390f57f-7fe0-4f9c-86d0-8d04c1c70abc"
+    }
+]
